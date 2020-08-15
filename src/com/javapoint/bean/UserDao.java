@@ -9,7 +9,7 @@ public static Connection getConnection(){
     Connection con=null;  
     try{  
         Class.forName("com.mysql.cj.jdbc.Driver");  
-        con=DriverManager.getConnection("jdbc:mysql://www.db4free.net:3306/lunner10/register","lunner10","qwer1020");  
+        con=DriverManager.getConnection("jdbc:mysql://www.db4free.net:3306/???/register","???","???");  
     }catch(Exception e){System.out.println(e);}  
     return con;  
 }  
